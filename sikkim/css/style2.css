@@ -1,0 +1,87 @@
+*{ margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../Sikkimm.png);
+            background-size: cover; 
+    
+           
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    margin-top : 15px;
+    margin-left: 20px;
+    float: right;
+    right: 10px;
+    font-size: 13px;
+    list-style-type: none;
+    font-family: 'Monda', sans-serif;
+    
+    
+}
+ul li{
+    display: inline-block;
+    background-color: none;
+    opacity: 1 ;
+}
+
+ul li a{
+    float: right;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border: 02px solid;
+    transition: 0.5s ease;
+    
+   
+}
+
+ul li a:hover{
+    background-color: black;
+    color:whitesmoke;
+    
+}
+
+ul li.active a{
+    background-color: crimson;
+    color:white;
+    
+}
+
+.main{
+    max-width: 1330px;
+    max-height: 120px;
+}
+.logo{
+    float: left;
+    line-height: 20px;
+    position: absolute;
+    width: 40%;
+    top: 30%;
+    left: 35%;
+    color: aliceblue;
+    font-size: 78px;
+    font-family: 'Allura', cursive;
+  
+    
+    
+}
+
+.HH{
+    
+    float: left;
+    font-family: 'Fondamento', cursive;
+    color: ghostwhite;
+    line-height: 10px;
+    left: 15px;
+    position: absolute;
+    font-size: 25px;
+}
+
+    
+    
+    

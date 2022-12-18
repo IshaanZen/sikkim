@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sikkim Tourism</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet" >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Galada&family=Open+Sans&family=Raleway:ital,wght@1,500&display=swap"
+    rel="stylesheet" >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Galada&family=Open+Sans&family=Raleway:ital,wght@1,500&display=swap"
+    rel="stylesheet" >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Galada&family=Monda&family=Open+Sans&family=Raleway:ital,wght@1,500&display=swap"
+    rel="stylesheet" >
+  <link rel="stylesheet" type="text/css" href="css/style.css" >
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!---------HOME-------->
+
+  <section class="header">
+    <nav>
+      <a href="Sikkim2.html">
+        <h1>Sikkim Tourism</h1>
+      </a>
+      <div class="nav-links" id="Navbar">
+        <i class="fa fa-times" onclick="HideMenu()"></i>
+
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT US</a></li>
+          <li><a href="">CONTACT US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="ShowMenu()"></i>
+
+    </nav>
+    <div class="text-box">
+      <h1>Welcome</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima ex,
+        quisquam est fuga exercitationem voluptas quaerat! Vel voluptatem
+        molestias a cumque fugiat quos rem corporis!
+      </p>
+      <a class="FMI-BTN" href="#">To Know More Click Here</a>
+    </div>
+  </section>
+
+  <!-----About US----->
+  <section class="About-Us">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, amet.</p>
+    
+    <div id="container">
+      <div class="cont">
+        <h3>Package 1</h3>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, ex! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam at veritatis architecto. Sint, consequuntur numquam. </p>
+      </div>
+      
+      <div class="cont">
+        <h3>Package 2</h3>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, ex! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam at veritatis architecto. Sint, consequuntur numquam. </p>
+      </div>
+  
+      <div class="cont">
+        <h3>Package 3</h3>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, ex! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam at veritatis architecto. Sint, consequuntur numquam. </p>
+      </div>
+  
+  
+    </div>
+</section>
+  
+
+<!--Picture library-->
+
+<section class="pic-lib">
+  <h1> Picture Library </h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat ducimus fugiat ipsa tenetur suscipit est exercitationem praesentium sit animi dolore fuga harum quaerat, obcaecati voluptatem, iusto quis iste vitae.</p>
+  
+  <div class="pic">
+    <div class="photo">
+      <img src="../img/post1.jpg" alt="image of a women">
+    </div>
+
+    <div class="photo">
+      <img src="img/profile8.jpg" alt="An old sadhu">
+    </div>
+
+    <div class="photo">
+      <img src="img/profile4.jpg" alt="Stupa">
+    </div>
+    
+    
+</section>
+
+<!--Contact Form-->
+
+<section class="contact-form">
+  <h1>Contact Us</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolor, quia molestias eligendi in sed?</p>
+
+  <form class="cf">
+    <div class="half left cf">
+      <input type="text" id="input-name" placeholder="Name">
+      <input type="email" id="input-email" placeholder="Email address">
+      <input type="text" id="input-subject" placeholder="Subject">
+    </div>
+    <div class="half right cf">
+      <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+    </div>  
+    <input type="submit" value="Submit" id="input-submit">
+  </form>
+  
+</section>
+
+<!--Javascript-->
+  <script>
+    var Navbar = document.getElementById("Navbar");
+
+    function ShowMenu() {
+      Navbar.style.right = "0";
+    }
+    function HideMenu() {
+      Navbar.style.right = "-400px";
+    }
+  </script>
+</body>
+
+</html>
